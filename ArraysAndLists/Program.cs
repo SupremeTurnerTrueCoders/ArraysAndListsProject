@@ -53,18 +53,6 @@ namespace ArraysAndLists
                 {
                     odds.Add(numbers[i]);
                 }
-
-                foreach (var num in numbers)
-                {
-                    if (num % 2 == 0)
-                    {
-                        evens.Add(num);
-                    }
-                    else
-                    {
-                        odds.Add(num);
-                    }
-                }
             }
 
 
@@ -76,7 +64,7 @@ namespace ArraysAndLists
                 Console.WriteLine($"{item}is an even number");
             }
 
-            
+
 
             /* Using a for loop,
              * display the numbers in your "odds" list
